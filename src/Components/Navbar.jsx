@@ -25,37 +25,37 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className='menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow'
+            className='menu menu-sm  dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow'
           >
             <li>
-              <NavLink to='/'>Home</NavLink>
+              <NavLink to='/'><span className='text-xl font-bold'>Home</span></NavLink>
             </li>
             <li>
-              <NavLink to='/products'>Products</NavLink>
+              <NavLink to='/products'><span className='text-xl font-bold'>Products</span></NavLink>
             </li>
             <li>
-              <NavLink to='/wishlist'>Wishlist</NavLink>
+              <NavLink to='/wishlist'><span className='text-xl font-bold'>WishList</span></NavLink>
             </li>
           </ul>
         </div>
         <Link to='/' className='text-2xl font-bold'>
-          HomeDecor
+          Home <span className='text-blue-500'>Decor</span>
         </Link>
       </div>
       <div className='navbar-center '></div>
       <div className='navbar-end'>
         <ul className='menu menu-horizontal px-1 hidden lg:flex'>
           <li>
-            <NavLink to='/'>Home</NavLink>
+            <NavLink to='/'><span className='text-xl font-bold'>Home</span></NavLink>
           </li>
           <li>
-            <NavLink to='/products'>Products</NavLink>
+            <NavLink to='/products'><span className='text-xl font-bold'>Products</span></NavLink>
           </li>
           <li>
-            <NavLink to='/wishlist'>Wishlist</NavLink>
+            <NavLink to='/wishlist'><span className='text-xl font-bold'>WishList</span></NavLink>
           </li>
         </ul>
-        <NavLink to='/products' className='btn'>
+        <NavLink to='/products' className='btn text-xl font-bold cursor-pointer hover:bg-green-400 border-2  bg-blue-500 text-white'>
           Visit Shop
         </NavLink>
       </div>
