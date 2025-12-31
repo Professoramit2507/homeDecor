@@ -1,16 +1,65 @@
-# React + Vite
+🏡 Home Decor Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive e-commerce-style web application for browsing and managing home decor essentials. Built with React, Tailwind CSS, and DaisyUI, this project focuses on clean UI, smooth UX, and useful product insights through charts.
 
-Currently, two official plugins are available:
+🔗 Live Demo: https://lnkd.in/gX5CjYBZ
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
 
-## React Compiler
+🛍️ Displays featured home decor products by default
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔍 View detailed product information
 
-## Expanding the ESLint configuration
+📊 Product insights & type distribution using Recharts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+❤️ Add / Remove products from Wishlist
+
+💾 Wishlist data stored in Local Storage
+
+↕️ Sort products by price (Low → High / High → Low)
+
+📱 Fully responsive design
+
+⏳ Smooth loading animations for better UX
+
+🛠️ Technologies Used
+
+React.js – Frontend library
+
+Tailwind CSS – Utility-first CSS framework
+
+DaisyUI – Tailwind-based UI components
+
+Recharts – Data visualization & charts
+
+Local Storage – Client-side data persistence
+
+🚀 How to Run This Project Locally
+
+Follow the steps below to run the project on your local machine:
+
+1️⃣ Prerequisites
+
+Make sure you have the following installed:
+
+React.js 
+
+2️⃣ Clone the Repository
+git clone <your-repository-link>
+cd home-decor-web-app
+3️⃣ Install Dependencies
+
+Using npm:
+
+npm install
+
+4️⃣ Start the Development Server
+npm run dev
+
+5️⃣ Open in Browser
+
+Once the server starts, open:
+
+http://localhost:5173
+
+(Port may vary depending on setup)
